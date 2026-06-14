@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/python-learning/',
   lang: 'zh-TW',
   title: "Python 基礎教學",
   description: "基於 Python Essentials 1 的繁體中文 Python 教學網站",
