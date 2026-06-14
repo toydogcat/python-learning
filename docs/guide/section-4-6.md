@@ -10,7 +10,7 @@
 
 ## 4.6.2 元組 (Tuples)
 
-元組是一種**不可變**的序列類型。
+元組是一種**不可變**的序列型別。
 
 ```python
 # 使用小括號定義
@@ -50,7 +50,7 @@ print(dictionary["cat"])  # chat
 
 <Quiz 
   question="1. 列表 (List) 與元組 (Tuple) 最大的差別在於？" 
-  :options="['儲存的內容類型', '括號的形狀', '可變性 (Mutability)']" 
+  :options="['儲存的內容型別', '括號的形狀', '可變性 (Mutability)']" 
   :answer="2" 
 />
 

@@ -76,7 +76,7 @@ for i in range(1, 6):
 />
 
 <Quiz 
-  question="3. while True: 建立的是什麼類型的迴圈？" 
+  question="3. while True: 建立的是哪一種迴圈？" 
   :options="['執行一次的迴圈', '無窮迴圈', '語法錯誤']" 
   :answer="1" 
 />

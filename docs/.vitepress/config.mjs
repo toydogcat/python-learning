@@ -20,7 +20,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '模組 2：Python 資料類型與變數',
+        text: '模組 2：Python 資料型別與變數',
         items: [
           { text: '2.1 Hello, World!', link: '/guide/section-2-1' },
           { text: '2.2 Python 字面值', link: '/guide/section-2-2' },
