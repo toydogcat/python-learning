@@ -42,7 +42,7 @@ Contents
 
 [Module 2: Python Data Types, Variables, Operators, and Basic I/O Operations](Python_Essentials_1_split_001.xhtml#idTextAnchor034)
 
-[Section 2.1 – The “Hello, World!” Program](Python_Essentials_1_split_001.xhtml#idTextAnchor035)
+[Section 2.1 – The "Hello, World!" Program](Python_Essentials_1_split_001.xhtml#idTextAnchor035)
 
 [2.1.1 Your very first program](Python_Essentials_1_split_001.xhtml#idTextAnchor036)
 
@@ -232,7 +232,7 @@ Contents
 
 [LAB 21 Essentials of the while loop](Python_Essentials_1_split_002.xhtml#idTextAnchor164)
 
-[LAB 22 Collatz’s hypothesis](Python_Essentials_1_split_002.xhtml#idTextAnchor166)
+[LAB 22 Collatz's hypothesis](Python_Essentials_1_split_002.xhtml#idTextAnchor166)
 
 [3.2 SECTION SUMMARY](Python_Essentials_1_split_002.xhtml#idTextAnchor168)
 
@@ -426,7 +426,7 @@ Contents
 
 [Section 4.7 – Exceptions](Python_Essentials_1_split_006.xhtml#idTextAnchor282)
 
-[4.7.1 Errors – the developer’s daily bread](Python_Essentials_1_split_006.xhtml#idTextAnchor284)
+[4.7.1 Errors – the developer's daily bread](Python_Essentials_1_split_006.xhtml#idTextAnchor284)
 
 [4.7.2 When data is not what it should be](Python_Essentials_1_split_006.xhtml#idTextAnchor285)
 
@@ -440,7 +440,7 @@ Contents
 
 [4.7.7 Some useful exceptions](Python_Essentials_1_split_006.xhtml#idTextAnchor290)
 
-[4.7.8 Why you can’t avoid testing your code](Python_Essentials_1_split_006.xhtml#idTextAnchor291)
+[4.7.8 Why you can't avoid testing your code](Python_Essentials_1_split_006.xhtml#idTextAnchor291)
 
 [4.7.9 When Python closes its eyes](Python_Essentials_1_split_006.xhtml#idTextAnchor292)
 

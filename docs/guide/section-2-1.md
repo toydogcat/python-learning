@@ -1,6 +1,6 @@
-# 第 2.1 節 – “Hello, World!” 程式
+# 第 2.1 節 – "Hello, World!" 程式
 
-歡迎來到第二模組！在第一節中，我們將學習 Python 語言最基本的語法與語義要素，並使用它們來建立您的第一個 Python 程式 – “Hello, World!”。
+歡迎來到第二模組！在第一節中，我們將學習 Python 語言最基本的語法與語義要素，並使用它們來建立您的第一個 Python 程式 – "Hello, World!"。
 
 ## 2.1.1 您的第一個程式
 
@@ -95,7 +95,7 @@ print("My", "name", "is", "Monty", "Python.", sep="-")
 
 <Quiz 
   question="1. 以下程式的輸出為何？" 
-  :options="['My name is Bond.James Bond.', 'My name is Bond. James Bond.', 'My name is Bond. \n James Bond.']" 
+  :options="['My name is Bond.James Bond.', 'My name is Bond. James Bond.', 'My name is Bond. [換行] James Bond.']" 
   :answer="1" 
 />
 
@@ -107,6 +107,6 @@ print("My", "name", "is", "Monty", "Python.", sep="-")
 
 <Quiz 
   question="3. 以下哪一個 print() 調用會導致 SyntaxError？" 
-  :options="['print(\"Greg\'s book.\")', 'print(\'Greg\'s book.\')', 'print(\"\'Greg\'s book.\'\")']" 
+  :options="['print(\'Gregs book.\')', 'print(\'Gregs book.\')', 'print(\'Gregs book.\')']" 
   :answer="1" 
 />

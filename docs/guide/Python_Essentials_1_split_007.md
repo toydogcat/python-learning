@@ -10,32 +10,32 @@ Appendix A: LAB Hints
 
 LAB 4
 
-1. print(“I’m\nlearning Python”)
+1. print("I'm\nlearning Python")
 
 [Back](Python_Essentials_1_split_001.xhtml#idTextAnchor062)
 
 LAB 9
 
-1. a = float(input(“Enter first value: “))
-2. b = float(input(“Enter second value: “))
+1. a = float(input("Enter first value: "))
+2. b = float(input("Enter second value: "))
 3. # output the result of addition here
 4. # output the result of subtraction here
 5. # output the result of multiplication here
 6. # output the result of division here
-7. print(”\nThat’s all, folks!”)
+7. print("\nThat's all, folks!")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor114)
 
 LAB 11
 
-1. hour = int(input(“Starting time (hours): “))
-2. mins = int(input(“Starting time (minutes): “))
-3. dura = int(input(“Event duration (minutes): “))
+1. hour = int(input("Starting time (hours): "))
+2. mins = int(input("Starting time (minutes): "))
+3. dura = int(input("Event duration (minutes): "))
 4. # find the total of all minutes
 5. # find the number of hours hidden in minutes and update the hour
 6. # correct minutes to fall in the (0..59) range
 7. # correct hours to fall in the (0..23) range
-8. print(hour, “:”, mins, sep=”)
+8. print(hour, ":", mins, sep=")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor119)
 
@@ -43,15 +43,15 @@ LAB 16
 
 1. secret\_number = 777
 2. print(
-3. ”””
+3. """
 4. +================================+
 5. | Welcome to my game, muggle!    |
 6. | Enter an integer number        |
-7. | and guess what number I’ve     |
+7. | and guess what number I've     |
 8. | picked for you.                |
 9. | So, what is the secret number? |
 10. +================================+
-11. ”””)
+11. """)
 12. # Prompt the user to enter an integer number.
 13. # Write a while loop and the rest of your code.
 
@@ -61,7 +61,7 @@ LAB 17
 
 1. import time
 2. # Write a for loop that counts to five.
-3. # Body of the loop – print the loop iteration number and the word “Mississippi”.
+3. # Body of the loop – print the loop iteration number and the word "Mississippi".
 4. time.sleep(1)
 5. # Write a print function with the final message.
 
@@ -79,7 +79,7 @@ LAB 18
 
 LAB 19
 
-1. user\_word = input(“Enter your word: “)
+1. user\_word = input("Enter your word: ")
 2. user\_word = user\_word.upper()
 4. for letter in user\_word:
 5. # if-elif-else block, nest continue statements
@@ -93,19 +93,19 @@ LAB 19
 
 LAB 20
 
-1. word\_without\_vowels = ””
-3. user\_word = input(“Enter your word: “)
+1. word\_without\_vowels = ""
+3. user\_word = input("Enter your word: ")
 4. user\_word = user\_word.upper()
 5. for letter in user\_word:
-7. if letter == “A”:
+7. if letter == "A":
 8. continue
-9. elif letter == “E”:
+9. elif letter == "E":
 10. continue
-11. elif letter == “I”:
+11. elif letter == "I":
 12. continue
-13. elif letter == “O”:
+13. elif letter == "O":
 14. continue
-15. elif letter == “U”:
+15. elif letter == "U":
 16. continue
 17. else:
 18. # Write your code here.
@@ -115,19 +115,19 @@ LAB 20
 
 LAB 21
 
-1. blocks = int(input(“Enter the number of blocks: “))
+1. blocks = int(input("Enter the number of blocks: "))
 3. height = 0
 4. in\_layer = 1
-5. while in\_layer <= blocks:
+5. while in\_layer &lt;= blocks:
 6. # The body of the while loop.
-8. print(“The height of the pyramid:”, height)
+8. print("The height of the pyramid:", height)
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor164)
 
 LAB 22
 
-1. c0 = int(input(“Enter c0: “))
-3. if c0 > 1:
+1. c0 = int(input("Enter c0: "))
+3. if c0 &gt; 1:
 4. steps = 0
 5. # The while loop goes here.
 6. if c0 %2 != 0:
@@ -137,9 +137,9 @@ LAB 22
 10. #
 11. # Write your code here.
 12. #
-13. print(“steps =”,steps)
+13. print("steps =",steps)
 14. else:
-15. print(“Bad c0 value”)
+15. print("Bad c0 value")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor167)
 
@@ -147,7 +147,7 @@ LAB 23
 
 1. hat\_list = [1, 2, 3, 4, 5]
 3. # Step 1
-4. hat\_list[2] = int(input(“Enter an integer number: “))
+4. hat\_list[2] = int(input("Enter an integer number: "))
 6. # Step 2: write a line of code that removes the last element from the list.
 8. # Step 3: write a line of code that prints the length of the existing list.
 10. print(hat\_list)
@@ -160,7 +160,7 @@ LAB 24
 2. Beatles = []
 3. #
 5. # step 2:
-7. Beatles.append(“John Lennon”)
+7. Beatles.append("John Lennon")
 8. #
 9. #
 10. #
@@ -184,10 +184,10 @@ LAB 25
 1. my\_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 2. new\_list = []
 3. # Browse all numbers from the source list.
-4. # If the number doesn’t appear within the new list…
+4. # If the number doesn't appear within the new list…
 5. # …append it here.
 6. # Make a copy of new\_list.
-7. print(“The list with unique elements only:”)
+7. print("The list with unique elements only:")
 8. print(my\_list)
 
 [Back](Python_Essentials_1_split_004.xhtml#idTextAnchor212)
@@ -206,12 +206,12 @@ LAB 26
 11. test\_results = [False, True, True, False]
 12. for i in range(len(test\_data)):
 13. yr = test\_data[i]
-14. print(yr,“-> “,end=””)
+14. print(yr,"-&gt; ",end="")
 15. result = is\_year\_leap(yr)
 16. if result == test\_results[i]:
-17. print(“OK”)
+17. print("OK")
 18. else:
-19. print(“Failed”)
+19. print("Failed")
 
 [Back](Python_Essentials_1_split_005.xhtml#idTextAnchor244)
 
@@ -240,12 +240,12 @@ LAB 27
 23. for i in range(len(test\_years)):
 24. yr = test\_years[i]
 25. mo = test\_months[i]
-26. print(yr,mo,“-> “,end=””)
+26. print(yr,mo,"-&gt; ",end="")
 27. result = days\_in\_month(yr, mo)
 28. if result == test\_results[i]:
-29. print(“OK”)
+29. print("OK")
 30. else:
-31. print(“Failed”)
+31. print("Failed")
 
 [Back](Python_Essentials_1_split_005.xhtml#idTextAnchor247)
 
@@ -261,7 +261,7 @@ LAB 28
 8. else:
 9. return True
 11. def days\_in\_month(year,month):
-12. if year < 1582 or month < 1 or month > 12:
+12. if year &lt; 1582 or month &lt; 1 or month &gt; 12:
 13. return None
 14. days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 15. res = days[month – 1]
@@ -276,7 +276,7 @@ LAB 28
 25. # …
 26. days += md
 27. md = days\_in\_month(year, month)
-28. if day >= 1 and day <= md:
+28. if day &gt;= 1 and day &lt;= md:
 29. # …
 30. else:
 31. # …
@@ -293,7 +293,7 @@ LAB 29
 5. return True
 7. for i in range(1, 20):
 8. if is\_prime(i + 1):
-9. print(i + 1, end=” “)
+9. print(i + 1, end=" ")
 10. print()
 
 [Back](Python_Essentials_1_split_005.xhtml#idTextAnchor251)
@@ -324,20 +324,20 @@ Appendix B: LAB Sample Solutions
 LAB 1
 
 1. # Sample Solution
-2. print(“Hello, Python!”)
-3. # print(“Greg”)
+2. print("Hello, Python!")
+3. # print("Greg")
 4. # print(Greg)
-5. # print”Greg”
-6. # print(‘Greg’)
-7. # print(“Greg”) print(“Python”)
-8. # …</sampleSolution>
+5. # print"Greg"
+6. # print('Greg')
+7. # print("Greg") print("Python")
+8. # …&lt;/sampleSolution&gt;
 
 [Back](Python_Essentials_1_split_001.xhtml#idTextAnchor041)
 
 LAB 2
 
-1. print(“Programming”,“Essentials”,“in”, sep=“\*\*\*”, end=“…”)
-2. print(“Python”)
+1. print("Programming","Essentials","in", sep="\*\*\*", end="…")
+2. print("Python")
 
 [Back](Python_Essentials_1_split_001.xhtml#idTextAnchor048)
 
@@ -345,65 +345,65 @@ LAB 3
 
 1. # Sample Solution
 3. ###################
-4. print(“original version:”)
+4. print("original version:")
 5. ###################
-6. print(”    \*”)
-7. print(”   \* \*”)
-8. print(”  \*   \*”)
-9. print(” \*     \*”)
-10. print(“\*\*\*   \*\*\*”)
-11. print(”  \*   \*”)
-12. print(”  \*   \*”)
-13. print(”  \*\*\*\*\*”)
+6. print("    \*")
+7. print("   \* \*")
+8. print("  \*   \*")
+9. print(" \*     \*")
+10. print("\*\*\*   \*\*\*")
+11. print("  \*   \*")
+12. print("  \*   \*")
+13. print("  \*\*\*\*\*")
 14. ###################
-15. print(“with fewer ‘print()’ invocations:”)
+15. print("with fewer 'print()' invocations:")
 16. ###################
-17. print(”    \*\n   \* \*\n  \*   \*\n \*     \*\n\*\*\*   \*\*\*”)
-18. print(”  \*   \*\n  \*   \*\n  \*\*\*\*\*”)
+17. print("    \*\n   \* \*\n  \*   \*\n \*     \*\n\*\*\*   \*\*\*")
+18. print("  \*   \*\n  \*   \*\n  \*\*\*\*\*")
 19. ###################
-20. print(“higher:”)
+20. print("higher:")
 21. ###################
-22. print(”        \*”)
-23. print(”       \* \*”)
-24. print(”      \*   \*”)
-25. print(”     \*     \*”)
-26. print(”    \*       \*”)
-27. print(”   \*         \*”)
-28. print(”  \*           \*”)
-29. print(” \*             \*”)
-30. print(“\*\*\*\*\*\*     \*\*\*\*\*\*”)
-31. print(”     \*     \*”)
-32. print(”     \*     \*”)
-33. print(”     \*     \*”)
-34. print(”     \*     \*”)
-35. print(”     \*     \*”)
-36. print(”     \*     \*”)
-37. print(”     \*\*\*\*\*\*\*”)
+22. print("        \*")
+23. print("       \* \*")
+24. print("      \*   \*")
+25. print("     \*     \*")
+26. print("    \*       \*")
+27. print("   \*         \*")
+28. print("  \*           \*")
+29. print(" \*             \*")
+30. print("\*\*\*\*\*\*     \*\*\*\*\*\*")
+31. print("     \*     \*")
+32. print("     \*     \*")
+33. print("     \*     \*")
+34. print("     \*     \*")
+35. print("     \*     \*")
+36. print("     \*     \*")
+37. print("     \*\*\*\*\*\*\*")
 38. ###################
-39. print(“doubled:”)
+39. print("doubled:")
 40. ###################
-41. print(”        \*        ”\*2)
-42. print(”       \* \*       ”\*2)
-43. print(”      \*   \*      ”\*2)
-44. print(”     \*     \*     ”\*2)
-45. print(”    \*       \*    ”\*2)
-46. print(”   \*         \*   ”\*2)
-47. print(”  \*           \*  ”\*2)
-48. print(” \*             \* ”\*2)
-49. print(“\*\*\*\*\*\*     \*\*\*\*\*\*”\*2)
-50. print(”     \*     \*     ”\*2)
-51. print(”     \*     \*     ”\*2)
-52. print(”     \*     \*     ”\*2)
-53. print(”     \*     \*     ”\*2)
-54. print(”     \*     \*     ”\*2)
-55. print(”     \*     \*     ”\*2)
-56. print(”     \*\*\*\*\*\*\*     ”\*2)
+41. print("        \*        "\*2)
+42. print("       \* \*       "\*2)
+43. print("      \*   \*      "\*2)
+44. print("     \*     \*     "\*2)
+45. print("    \*       \*    "\*2)
+46. print("   \*         \*   "\*2)
+47. print("  \*           \*  "\*2)
+48. print(" \*             \* "\*2)
+49. print("\*\*\*\*\*\*     \*\*\*\*\*\*"\*2)
+50. print("     \*     \*     "\*2)
+51. print("     \*     \*     "\*2)
+52. print("     \*     \*     "\*2)
+53. print("     \*     \*     "\*2)
+54. print("     \*     \*     "\*2)
+55. print("     \*     \*     "\*2)
+56. print("     \*\*\*\*\*\*\*     "\*2)
 
 [Back](Python_Essentials_1_split_001.xhtml#idTextAnchor051)
 
 LAB 4
 
-1. print(”"I’m"\n""learning""\n"""Python"""”)
+1. print(""I'm"\n""learning""\n"""Python"""")
 
 [Back](Python_Essentials_1_split_001.xhtml#idTextAnchor062)
 
@@ -412,13 +412,13 @@ LAB 5
 1. john = 3
 2. mary = 5
 3. adam = 6
-4. print(john, mary, adam, sep=’,’)
+4. print(john, mary, adam, sep=',')
 5. total\_apples = john + mary + adam
 6. print(total\_apples)
 7. # peter = 12.5
 8. # suzy = 2
 9. # print(peter / suzy)
-10. # print(“Total number of apples:”, total\_apples)
+10. # print("Total number of apples:", total\_apples)
 
 [Back](Python_Essentials_1_split_001.xhtml#idTextAnchor087)
 
@@ -428,8 +428,8 @@ LAB 6
 2. miles = 7.38
 3. miles\_to\_kilometers = miles \* 1.61
 4. kilometers\_to\_miles = kilometers / 1.61
-5. print(miles, “miles is”, round(miles\_to\_kilometers, 2), “kilometers”)
-6. print(kilometers, “kilometers is”, round(kilometers\_to\_miles, 2), “miles”)
+5. print(miles, "miles is", round(miles\_to\_kilometers, 2), "kilometers")
+6. print(kilometers, "kilometers is", round(kilometers\_to\_miles, 2), "miles")
 
 [Back](Python_Essentials_1_split_001.xhtml#idTextAnchor091)
 
@@ -438,98 +438,98 @@ LAB 7
 1. x = 0
 2. x = float(x)
 3. y = 3 \* x\*\*3 – 2 \* x\*\*2 + 3 \* x – 1
-4. print(“y =”, y)
+4. print("y =", y)
 5. x = 1
 6. x = float(x)
 7. y = 3 \* x\*\*3 – 2 \* x\*\*2 + 3 \* x – 1
-8. print(“y =”, y)
+8. print("y =", y)
 9. x = -1
 10. x = float(x)
 11. y = 3 \* x\*\*3 – 2 \* x\*\*2 + 3 \* x – 1
-12. print(“y =”, y)
+12. print("y =", y)
 
 [Back](Python_Essentials_1_split_001.xhtml#idTextAnchor092)
 
 LAB 9
 
-1. a = float(input(“Enter first value: “))
-2. b = float(input(“Enter second value: “))
-3. print(“Addition:”, a + b)
-4. print(“Subtraction:”, a – b)
-5. print(“Multiplication:”, a \* b)
-6. print(“Division:”, a / b)
-7. print(”\nThat’s all, folks!”)
+1. a = float(input("Enter first value: "))
+2. b = float(input("Enter second value: "))
+3. print("Addition:", a + b)
+4. print("Subtraction:", a – b)
+5. print("Multiplication:", a \* b)
+6. print("Division:", a / b)
+7. print("\nThat's all, folks!")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor114)
 
 LAB 10
 
-1. x = float(input(“Enter value for x: “))
+1. x = float(input("Enter value for x: "))
 2. y = 1./(x + 1./(x + 1./(x + 1./x)))
-3. print(“y =”, y)
+3. print("y =", y)
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor117)
 
 LAB 11
 
-1. hour = int(input(“Starting time (hours): “))
-2. mins = int(input(“Starting time (minutes): “))
-3. dura = int(input(“Event duration (minutes): “))
+1. hour = int(input("Starting time (hours): "))
+2. mins = int(input("Starting time (minutes): "))
+3. dura = int(input("Event duration (minutes): "))
 4. mins = mins + dura # find a total of all minutes
 5. hour = hour + mins // 60 # find a number of hours hidden in minutes and update the hour
 6. mins = mins % 60 # correct minutes to fall in the (0..59) range
 7. hour = hour % 24 # correct hours to fall in the (0..23) range
-8. print(hour, “:”, mins, sep=”)
+8. print(hour, ":", mins, sep=")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor119)
 
 LAB 12
 
-1. n = int(input(“Enter a number: “))
-2. print(n >= 100)
+1. n = int(input("Enter a number: "))
+2. print(n &gt;= 100)
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor131)
 
 LAB 13
 
-1. name = input(“Enter flower name: “)
-2. if name == “Spathiphyllum”:
-3. print(“Yes – Spathiphyllum is the best plant ever!”)
-4. elif name == “spathiphyllum”:
-5. print(“No, I want a big Spathiphyllum!”)
+1. name = input("Enter flower name: ")
+2. if name == "Spathiphyllum":
+3. print("Yes – Spathiphyllum is the best plant ever!")
+4. elif name == "spathiphyllum":
+5. print("No, I want a big Spathiphyllum!")
 6. else:
-7. print(“Spathiphyllum! Not”, name + “!”)
+7. print("Spathiphyllum! Not", name + "!")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor137)
 
 LAB 14
 
-1. income = float(input(“Enter the annual income: “))
-2. if income < 85528:
+1. income = float(input("Enter the annual income: "))
+2. if income &lt; 85528:
 3. tax = income \* 0.18 – 556.02
 4. else:
 5. tax = (income – 85528) \* 0.32 + 14839.02
-6. if tax < 0.0:
+6. if tax &lt; 0.0:
 7. tax = 0.0
 8. tax = round(tax, 0)
-9. print(“The tax is:”, tax, “thalers”)
+9. print("The tax is:", tax, "thalers")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor138)
 
 LAB 15
 
-1. year = int(input(“Enter a year: “))
-3. if year < 1582:
-4. print(“Not within the Gregorian calendar period”)
+1. year = int(input("Enter a year: "))
+3. if year &lt; 1582:
+4. print("Not within the Gregorian calendar period")
 5. else:
 6. if year % 4 != 0:
-7. print(“Common year”)
+7. print("Common year")
 8. elif year % 100 != 0:
-9. print(“Leap year”)
+9. print("Leap year")
 10. elif year % 400 != 0:
-11. print(“Common year”)
+11. print("Common year")
 12. else:
-13. print(“Leap year”)
+13. print("Leap year")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor141)
 
@@ -537,20 +537,20 @@ LAB 16
 
 1. secret\_number = 777
 3. print(
-4. ”””
+4. """
 5. +================================+
 6. | Welcome to my game, muggle!    |
 7. | Enter an integer number        |
-8. | and guess what number I’ve     |
+8. | and guess what number I've     |
 9. | picked for you.                |
 10. | So, what is the secret number? |
 11. +================================+
-12. ”””)
-14. user\_number = int(input(“Enter the number: “))
+12. """)
+14. user\_number = int(input("Enter the number: "))
 16. while user\_number != secret\_number:
-17. print(“Ha ha! You’re stuck in my loop!”)
-18. user\_number = int(input(“Enter the number again: “))
-19. print(secret\_number, “Well done, muggle! You are free now.”)
+17. print("Ha ha! You're stuck in my loop!")
+18. user\_number = int(input("Enter the number again: "))
+19. print(secret\_number, "Well done, muggle! You are free now.")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor149)
 
@@ -558,36 +558,36 @@ LAB 17
 
 1. import time
 3. for second in range(1, 6):
-4. print(second, “Mississippi”)
+4. print(second, "Mississippi")
 5. time.sleep(1)
-7. print(“Ready or not, here I come!”)
+7. print("Ready or not, here I come!")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor153)
 
 LAB 18
 
 1. while True:
-2. word = input(“You’re stuck in an infinite loop!\nEnter the secret word to leave the loop: “)
-3. if word == “chupacabra”:
+2. word = input("You're stuck in an infinite loop!\nEnter the secret word to leave the loop: ")
+3. if word == "chupacabra":
 4. break
-5. print(“You’ve successfully left the loop!”)
+5. print("You've successfully left the loop!")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor156)
 
 LAB 19
 
-1. user\_word = input(“Enter your word: “)
+1. user\_word = input("Enter your word: ")
 2. user\_word = user\_word.upper()
 4. for letter in user\_word:
-5. if letter == “A”:
+5. if letter == "A":
 6. continue
-7. elif letter == “E”:
+7. elif letter == "E":
 8. continue
-9. elif letter == “I”:
+9. elif letter == "I":
 10. continue
-11. elif letter == “O”:
+11. elif letter == "O":
 12. continue
-13. elif letter == “U”:
+13. elif letter == "U":
 14. continue
 15. else:
 16. print(letter)
@@ -596,19 +596,19 @@ LAB 19
 
 LAB 20
 
-1. word\_without\_vowels = ””
-3. user\_word = input(“Enter your word: “)
+1. word\_without\_vowels = ""
+3. user\_word = input("Enter your word: ")
 4. user\_word = user\_word.upper()
 6. for letter in user\_word:
-7. if letter == “A”:
+7. if letter == "A":
 8. continue
-9. elif letter == “E”:
+9. elif letter == "E":
 10. continue
-11. elif letter == “I”:
+11. elif letter == "I":
 12. continue
-13. elif letter == “O”:
+13. elif letter == "O":
 14. continue
-15. elif letter == “U”:
+15. elif letter == "U":
 16. continue
 17. else:
 18. word\_without\_vowels += letter
@@ -618,21 +618,21 @@ LAB 20
 
 LAB 21
 
-1. blocks = int(input(“Enter the number of blocks: “))
+1. blocks = int(input("Enter the number of blocks: "))
 3. height = 0
 4. in\_layer = 1
-5. while in\_layer <= blocks:
+5. while in\_layer &lt;= blocks:
 6. height += 1
 7. blocks -= in\_layer
 8. in\_layer += 1
-9. print(“The height of the pyramid:”, height)
+9. print("The height of the pyramid:", height)
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor164)
 
 LAB 22
 
-1. c0 = int(input(“Enter c0: “))
-3. if c0 > 1:
+1. c0 = int(input("Enter c0: "))
+3. if c0 &gt; 1:
 4. steps = 0
 5. while c0 != 1:
 6. if c0 %2 != 0:
@@ -642,9 +642,9 @@ LAB 22
 10. print(c0)
 11. c0 = cnew
 12. steps += 1
-13. print(“steps =”,steps)
+13. print("steps =",steps)
 14. else:
-15. print(“Bad c0 value”)
+15. print("Bad c0 value")
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor167)
 
@@ -652,7 +652,7 @@ LAB 23
 
 1. hat\_list = [1, 2, 3, 4, 5]
 3. # Step 1
-4. hat\_list[2] = int(input(“Enter an integer number: “))
+4. hat\_list[2] = int(input("Enter an integer number: "))
 6. # Step 2
 7. del hat\_list[-1]
 9. # Step 3
@@ -664,24 +664,24 @@ LAB 24
 
 1. # step 1:
 2. Beatles = []
-3. print(“Step 1:”, Beatles)
+3. print("Step 1:", Beatles)
 5. # step 2:
-7. Beatles.append(“John Lennon”)
-8. Beatles.append(“Paul McCartney”)
-9. Beatles.append(“George Harrison”)
-10. print(“Step 2:”, Beatles)
+7. Beatles.append("John Lennon")
+8. Beatles.append("Paul McCartney")
+9. Beatles.append("George Harrison")
+10. print("Step 2:", Beatles)
 12. # step 3:
 13. for members in range(2):
-14. Beatles.append(input(“New band member: “))
-15. print(“Step 3:”, Beatles)
+14. Beatles.append(input("New band member: "))
+15. print("Step 3:", Beatles)
 17. # step 4:
 18. del Beatles[-1]
 19. del Beatles[-1]
-20. print(“Step 4:”, Beatles)
+20. print("Step 4:", Beatles)
 22. # step 5:
-23. Beatles.insert(0, “RingoStarr”)
-24. print(“Step 5:”, Beatles)
-25. print(“The Fab:”,len(Beatles))
+23. Beatles.insert(0, "RingoStarr")
+24. print("Step 5:", Beatles)
+25. print("The Fab:",len(Beatles))
 
 [Back](Python_Essentials_1_split_003.xhtml#idTextAnchor193)
 
@@ -690,10 +690,10 @@ LAB 25
 1. my\_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 2. new\_list = []
 3. for number in my\_list:  # Browse all numbers from the source list.
-4. if number not in new\_list:  # If the number doesn’t appear within the new list…
+4. if number not in new\_list:  # If the number doesn't appear within the new list…
 5. new\_list.append(number)  # …append it here.
 6. my\_list = new\_list[:]  # Make a copy of new\_list.
-7. print(“The list with unique elements only:”)
+7. print("The list with unique elements only:")
 8. print(my\_list)
 
 [Back](Python_Essentials_1_split_004.xhtml#idTextAnchor212)
@@ -713,12 +713,12 @@ LAB 26
 12. test\_results = [False, True, True, False]
 13. for i in range(len(test\_data)):
 14. yr = test\_data[i]
-15. print(yr,“-> “,end=””)
+15. print(yr,"-&gt; ",end="")
 16. result = is\_year\_leap(yr)
 17. if result == test\_results[i]:
-18. print(“OK”)
+18. print("OK")
 19. else:
-20. print(“Failed”)
+20. print("Failed")
 
 [Back](Python_Essentials_1_split_005.xhtml#idTextAnchor244)
 
@@ -734,7 +734,7 @@ LAB 27
 8. else:
 9. return True
 11. def days\_in\_month(year,month):
-12. if year < 1582 or month < 1 or month > 12:
+12. if year &lt; 1582 or month &lt; 1 or month &gt; 12:
 13. return None
 14. days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 15. res = days[month – 1]
@@ -747,12 +747,12 @@ LAB 27
 23. for i in range(len(test\_years)):
 24. yr = test\_years[i]
 25. mo = test\_months[i]
-26. print(yr,mo,“-> “,end=””)
+26. print(yr,mo,"-&gt; ",end="")
 27. result = days\_in\_month(yr, mo)
 28. if result == test\_results[i]:
-29. print(“OK”)
+29. print("OK")
 30. else:
-31. print(“Failed”)
+31. print("Failed")
 
 [Back](Python_Essentials_1_split_005.xhtml#idTextAnchor247)
 
@@ -768,7 +768,7 @@ LAB 28
 8. else:
 9. return True
 10. def days\_in\_month(year, month):
-11. if year < 1582 or month < 1 or month > 12:
+11. if year &lt; 1582 or month &lt; 1 or month &gt; 12:
 12. return None
 13. days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 14. res = days[month – 1]
@@ -783,7 +783,7 @@ LAB 28
 24. return None
 25. days += md
 26. md = days\_in\_month(year, month)
-27. if day >= 1 and day <= md:
+27. if day &gt;= 1 and day &lt;= md:
 28. return days + day
 29. else:
 30. return None
@@ -800,7 +800,7 @@ LAB 29
 5. return True
 7. for i in range(1, 20):
 8. if is\_prime(i + 1):
-9. print(i + 1, end=” “)
+9. print(i + 1, end=" ")
 10. print()
 
 [Back](Python_Essentials_1_split_005.xhtml#idTextAnchor251)
@@ -842,9 +842,9 @@ Bond. James Bond.
 
 Question 2
 
-File “main.py”, line 1
+File "main.py", line 1
 
-print(sep=”&”, “fish”, “chips”)
+print(sep="&", "fish", "chips")
 
 ^
 
@@ -852,7 +852,7 @@ SyntaxError: positional argument follows keyword argument
 
 Question 3
 
-Line 5 will raise SyntaxError, because the ‘ symbol in the Greg’s book. string requires an escape character.
+Line 5 will raise SyntaxError, because the ' symbol in the Greg's book. string requires an escape character.
 
 [Back](Python_Essentials_1_split_000.xhtml#idTextAnchor002)
 
@@ -860,11 +860,11 @@ Section 2.2.4
 
 Sample Solution 1
 
-1. print(‘I'm Monty Python.’)
+1. print('I'm Monty Python.')
 
 Sample Solution 2
 
-1. print(“I’m Monty Python.”)
+1. print("I'm Monty Python.")
 
 [Back](Python_Essentials_1_split_001.xhtml#idTextAnchor059)
 
@@ -872,7 +872,7 @@ Section 2.2 Quiz
 
 Question 1
 
-They’re both strings/string literals.
+They're both strings/string literals.
 
 Question 2
 
@@ -880,7 +880,7 @@ The first is a string, the second is a numerical literal (a float), the third is
 
 Question 3
 
-It’s 11, because (2\*\*0) + (2\*\*1) + (2\*\*3) = 11
+It's 11, because (2\*\*0) + (2\*\*1) + (2\*\*3) = 11
 
 [Back](Python_Essentials_1_split_001.xhtml#idTextAnchor065)
 
@@ -992,7 +992,7 @@ Question 1
 
 Question 2
 
-<class ‘str’>
+`&lt;class 'str'&gt;`
 
 [Back](Python_Essentials_1_split_002.xhtml#idTextAnchor122)
 
@@ -1000,7 +1000,7 @@ Section 3.1.3
 
 Question 1
 
-True – of course, 2 is equal to 2. Python will answer True (remember this pair of predefined literals, True and False – they’re Python keywords, too).
+True – of course, 2 is equal to 2. Python will answer True (remember this pair of predefined literals, True and False – they're Python keywords, too).
 
 Question 2
 
@@ -1066,7 +1066,7 @@ print(i)
 
 Question 2
 
-x = 1 while x < 11:
+x = 1 while x &lt; 11:
 
 if x % 2 != 0:
 
@@ -1076,25 +1076,25 @@ x += 1
 
 Question 3
 
-for ch in “john.smith@pythoninstitute.org”:
+for ch in "john.smith@pythoninstitute.org":
 
-if ch == “@”:
+if ch == "@":
 
 break
 
-print(ch, end=””)
+print(ch, end="")
 
 Question 4
 
-for digit in “0165031806510”:
+for digit in "0165031806510":
 
-if digit == “0”:
+if digit == "0":
 
-print(“x”, end=””)
+print("x", end="")
 
 continue
 
-print(digit, end=””)
+print(digit, end="")
 
 Question 5
 
@@ -1150,7 +1150,7 @@ Question 2
 
 Question 3
 
-NameError: name ‘lst’ is not defined
+NameError: name 'lst' is not defined
 
 Question 4
 
@@ -1164,7 +1164,7 @@ Section 3.5 Quiz
 
 Question 1
 
-[‘A’, ‘D’, ‘F’, ‘Z’]
+['A', 'D', 'F', 'Z']
 
 Question 2
 
@@ -1172,7 +1172,7 @@ Question 2
 
 Question 3
 
-[‘ ‘, ‘C’, ‘B’, ‘A’]
+[' ', 'C', 'B', 'A']
 
 [Back](Python_Essentials_1_split_004.xhtml#idTextAnchor204)
 
@@ -1180,11 +1180,11 @@ Section 3.6 Quiz
 
 Question 1
 
-[‘C’]
+['C']
 
 Question 2
 
-[‘B’, ‘C’]
+['B', 'C']
 
 Question 3
 
@@ -1192,13 +1192,13 @@ Question 3
 
 Question 4
 
-[‘A’, ‘B’, ‘C’]
+['A', 'B', 'C']
 
 Question 5
 
-1. my\_list = [1, 2, “in”, True, “ABC”]
+1. my\_list = [1, 2, "in", True, "ABC"]
 3. print(1 in my\_list) # outputs True
-4. print(“A” not in my\_list) # outputs True
+4. print("A" not in my\_list) # outputs True
 5. print(3 not in my\_list) # outputs True
 6. print(False in my\_list) # outputs False
 
@@ -1208,7 +1208,7 @@ Section 4.1 Quiz
 
 Question 1
 
-b – it’s a built-in function.
+b – it's a built-in function.
 
 Question 2
 
@@ -1216,7 +1216,7 @@ An exception is thrown (the NameError exception to be more precise).
 
 Question 3
 
-An exception will be thrown (the TypeError exception to be more precise) – the hi() function doesn’t take any arguments.
+An exception will be thrown (the TypeError exception to be more precise) – the hi() function doesn't take any arguments.
 
 [Back](Python_Essentials_1_split_004.xhtml#idTextAnchor230)
 
@@ -1270,7 +1270,7 @@ Question 1
 
 The NameError exception will be thrown:
 
-NameError: name ‘alt’ is not defined
+NameError: name 'alt' is not defined
 
 Question 2
 
@@ -1312,7 +1312,7 @@ The program will print 3 to the screen.
 
 Question 2
 
-The program will print 6 to the screen. The tup tuple elements have been “unpacked” in the a, b, and c variables.
+The program will print 6 to the screen. The tup tuple elements have been "unpacked" in the a, b, and c variables.
 
 Question 3
 
@@ -1324,9 +1324,9 @@ print(duplicates)    # outputs: 4
 
 Question 4
 
-d1 = {‘Adam Smith’: ‘A’, ‘Judy Paxton’: ‘B+’}
+d1 = {'Adam Smith': 'A', 'Judy Paxton': 'B+'}
 
-d2 = {‘Mary Louis’: ‘A’, ‘Patrick White’: ‘C’}
+d2 = {'Mary Louis': 'A', 'Patrick White': 'C'}
 
 d3 = {}
 
@@ -1338,7 +1338,7 @@ print(d3)
 
 Question 5
 
-my\_list = [“car”, “Ford”, “flower”, “Tulip”]
+my\_list = ["car", "Ford", "flower", "Tulip"]
 
 t = tuple(my\_list)
 
@@ -1346,7 +1346,7 @@ print(t)
 
 Question 6
 
-colors = ((“green”, “#008000”), (“blue”, “#0000FF”))
+colors = (("green", "#008000"), ("blue", "#0000FF"))
 
 colors\_dictionary = dict(colors)
 
@@ -1354,7 +1354,7 @@ print(colors\_dictionary)
 
 Question 7
 
-The program will print {‘A’: 1, ‘B’: 2} to the screen.
+The program will print {'A': 1, 'B': 2} to the screen.
 
 Question 8
 
@@ -1398,7 +1398,7 @@ PCEP-30-02 1.1 – Understand fundamental terms and definitions
 * interpreting and the interpreter, compilation and the compiler
 * lexis, syntax, and semantics
 
-PCEP-30-02 1.2 – Understand Python’s logic and structure
+PCEP-30-02 1.2 – Understand Python's logic and structure
 
 * keywords
 * instructions
@@ -1422,10 +1422,10 @@ PCEP-30-02 1.4 – Choose operators and data types adequate to the problem
 * assignment and shortcut operators
 * unary and binary operators
 * priorities and binding
-* bitwise operators: ~ & ^ | << >>
+* bitwise operators: ~ & ^ | &lt;&lt; &gt;&gt;
 * Boolean operators: not, and, or
 * Boolean expressions
-* relational operators: == != > >= < <=
+* relational operators: == != &gt; &gt;= &lt; &lt;=
 * the accuracy of floating-point numbers
 * type casting
 
