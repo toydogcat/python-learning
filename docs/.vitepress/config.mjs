@@ -23,7 +23,7 @@ export default defineConfig({
         text: '模組 2：Python 資料類型與變數',
         items: [
           { text: '2.1 Hello, World!', link: '/guide/section-2-1' },
-          { text: '2.2 Python 字面量', link: '/guide/section-2-2' },
+          { text: '2.2 Python 字面值', link: '/guide/section-2-2' },
           { text: '2.3 運算子', link: '/guide/section-2-3' },
           { text: '2.4 變數', link: '/guide/section-2-4' },
           { text: '2.5 註解', link: '/guide/section-2-5' },

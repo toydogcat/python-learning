@@ -13,19 +13,19 @@ print("Hello, World!")
 ```
 
 現在我們將解釋您看到的內容。這個程式由以下部分組成：
-* `print` 函數名稱。
+* `print` 函式名稱。
 * 一對括號 `()`。
 * 引號內的內容 `"Hello, World!"`。
 
-## 2.1.2 print() 函數
+## 2.1.2 print() 函式
 
-`print` 是一個函數名稱。在 Python 中，函數是一個獨立的程式碼部分，能夠：
+`print` 是一個 函式名稱。在 Python 中，函式是一個獨立的程式碼部分，能夠：
 1. 導致一個效應（例如：將文字輸出到螢幕）。
 2. 計算一個值（例如：求平方根）。
 
-## 2.1.3 函數參數
+## 2.1.3 函式參數
 
-Python 函數可以接收**參數**。參數放在函數名稱後的括號中。
+Python 函式可以接收**參數**。參數放在函式名稱後的括號中。
 
 ```python
 print("Hello, World!")
@@ -33,11 +33,11 @@ print("Hello, World!")
 
 在上面的例子中，`"Hello, World!"` 就是一個字串參數。
 
-## 2.1.4 函數調用
+## 2.1.4 函式呼叫
 
-函數名稱連同括號和參數構成了**函數調用 (Function Invocation)**。
+函式名稱連同括號和參數構成了**函式呼叫 (Function Invocation)**。
 
-## 2.1.5 print() 函數的效應與返回值
+## 2.1.5 print() 函式的效應與返回值
 
 1. **效應：** 將參數轉換為人類可讀的形式並輸出到螢幕。
 2. **參數：** `print()` 可以接收幾乎任何類型的數據，如字串、數字等。
@@ -45,7 +45,7 @@ print("Hello, World!")
 
 ## 2.1.6 指令 (Instructions)
 
-函數調用是一種指令。Python 要求**一行只能有一個指令**（除非使用特殊續行符號）。
+函式呼叫是一種指令。Python 要求**一行只能有一個指令**（除非使用特殊續行符號）。
 
 ## 2.1.7 跳脫字元與換行字元
 
@@ -87,15 +87,22 @@ print("My", "name", "is", "Monty", "Python.", sep="-")
 
 ## 2.1 本節小結
 
-1. `print()` 是內建函數。
+1. `print()` 是內建函式。
 2. 字串可以用雙引號 `"` 或單引號 `'` 定義。
 3. 位置參數由位置決定意義，關鍵字參數由名稱決定。
 
 ## 2.1 本節測驗
 
+### 題目 1
+以下是一個 Python 程式：
+```python
+print("My\nname\nis\nBond.", end=" ")
+print("James Bond.")
+```
+
 <Quiz 
-  question="1. 以下程式的輸出為何？" 
-  :options="['My name is Bond.James Bond.', 'My name is Bond. James Bond.', 'My name is Bond. [換行] James Bond.']" 
+  question="1. 以上程式的輸出為何？" 
+  :options="['My\\nname\\nis\\nBond.James Bond.', 'My\\nname\\nis\\nBond. James Bond.', 'My\\nname\\nis\\nBond.\\nJames Bond.']" 
   :answer="1" 
 />
 
@@ -106,7 +113,7 @@ print("My", "name", "is", "Monty", "Python.", sep="-")
 />
 
 <Quiz 
-  question="3. 以下哪一個 print() 調用會導致 SyntaxError？" 
-  :options="['print(\'Gregs book.\')', 'print(\'Gregs book.\')', 'print(\'Gregs book.\')']" 
+  question="3. 以下哪一個 print() 呼叫會導致 SyntaxError？" 
+  :options="['print(\x22Greg\'s book.\x22)', 'print(\x27Greg\x27s book.\x27)', 'print(\x27Greg\\\'s book.\x27)']" 
   :answer="1" 
 />

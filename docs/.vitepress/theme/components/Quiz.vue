@@ -107,8 +107,9 @@ const reset = () => {
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.5rem;
+  white-space: pre-wrap;
 }
 
 .option-item:hover:not(.submitted) {
@@ -169,6 +170,7 @@ const reset = () => {
 .text-danger { color: #ef4444; }
 
 input[type="radio"] {
-  margin: 0;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
 }
 </style>

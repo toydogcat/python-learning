@@ -56,9 +56,9 @@ print(anything, "的平方是", something)
 ### 字串串接 (Concatenation)
 使用 `+` 號將兩個字串「黏」在一起。
 ```python
-fnam = input("姓: ")
-lnam = input("名: ")
-print("您的全名是 " + fnam + lnam)
+fnam = input("名字: ")
+lnam = input("姓氏: ")
+print("您的全名是 " + lnam + fnam)
 ```
 
 ### 字串重複 (Replication)
